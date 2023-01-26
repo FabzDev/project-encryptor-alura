@@ -29,14 +29,13 @@
 	width: 1440px;
 	height: 1024px;
 	font-family: "Montserrat", sans-serif;
-	padding: 30px;
 }
 
 /* EMPIEZA ESTILIZADO DE SECCION IZQUIERDA */
 .seccion-izquierda {
 	display: inline-block;
 	vertical-align: top;
-	width: 60%;
+	width: 1040px;
 	height: 100%;
 	border: 3px solid blue;
 }
@@ -78,20 +77,42 @@
 }
 
 .contenedor-botones-encriptado {
-	height: 30%;
 	font-size: 32px;
 	border: 1px solid red;
 }
 
-.instrucciones {
+.instrucciones p {
 	font-size: 12px;
 	color: var(--gray-400);
+	display: inline-block;
+}
+
+.signo-exclamacion {
+	width: 12px;
+	display: inline-block;
+}
+
+.contenedor-botones {
+	width: 680px;
+	height: auto;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+#encriptar,
+#desencriptar {
+	width: 328px;
+	padding: 24px;
+	border-radius: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	display: inline-block;
 }
 
 /* EMPIEZA ESTILIZADO DE SECCION DERECHA */
 .seccion-derecha {
 	display: inline-block;
-	width: 39%;
+	width: 395px;
 	height: 100%;
 	border: 3px solid purple;
 }
