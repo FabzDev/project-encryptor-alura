@@ -13,7 +13,8 @@ let originalText;
 let modifiedText;
 
 botonEncriptar.addEventListener("click", () => {
-	originalText = normalTextDOM.value;
+	originalText = normalTextDOM.value.toLowerCase();
+	console.log(originalText);
 	if (originalText) {
 		contenedorInactivo.style.display = "none";
 		contenedorActivo.style.display = "block";
