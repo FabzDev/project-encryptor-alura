@@ -16,21 +16,21 @@ let modifiedText;
 botonEncriptar.addEventListener("click", () => {
 	originalText = normalTextDOM.value;
 	modifiedText = originalText
-		.replaceAll("e", "enter")
-		.replaceAll("i", "imes")
-		.replaceAll("a", "ai")
-		.replaceAll("o", "ober")
-		.replaceAll("u", "ufat");
+		.replaceAll("e", "rm23l")
+		.replaceAll("i", "en34k")
+		.replaceAll("a", "asdf3")
+		.replaceAll("o", "lk23j")
+		.replaceAll("u", "s2e1");
 	encryptedTextDOM.innerHTML = modifiedText;
 });
 
 botonDesencriptar.addEventListener("click", () => {
 	originalText = normalTextDOM.value;
 	modifiedText = originalText
-		.replaceAll("enter", "e")
-		.replaceAll("imes", "i")
-		.replaceAll("ai", "a")
-		.replaceAll("ober", "o")
-		.replaceAll("ufat", "u");
+		.replaceAll("rm23l", "e")
+		.replaceAll("en34k", "i")
+		.replaceAll("asdf3", "a")
+		.replaceAll("lk23j", "o")
+		.replaceAll("s2e1", "u");
 	encryptedTextDOM.innerHTML = modifiedText;
 });
