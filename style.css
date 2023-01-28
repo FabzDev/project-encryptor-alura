@@ -116,7 +116,6 @@
 
 /* CONTENEDOR ENCRYPTADOR INACTIVO */
 .contenedorpadre-encriptador-inactivo {
-	display: none;
 	position: absolute;
 	top: 40px;
 	right: 40px;
@@ -160,6 +159,7 @@
 
 /* CONTENEDOR ENCRYPTADOR ACTIVO */
 .contenedorpadre-encriptador-activo {
+	display: none;
 	position: absolute;
 	top: 40px;
 	right: 40px;
