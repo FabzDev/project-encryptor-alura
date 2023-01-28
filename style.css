@@ -32,6 +32,12 @@
 	position: relative;
 }
 
+.boton-back {
+	position: absolute;
+	top: 51px;
+	left: 28px;
+}
+
 .logo {
 	position: absolute;
 	top: 40px;
