@@ -80,10 +80,10 @@
 }
 
 .contenedor-botones {
-	margin: 0 auto;
 	position: absolute;
 	top: 885px;
 	left: 240px;
+	margin: 0 auto;
 }
 
 .botones {
@@ -108,5 +108,90 @@
 	border: 1px solid var(--dark-blue-500);
 }
 
-/* ,
-#desencriptar  */
+/* CONTENEDOR ENCRYPTADOR INACTIVO */
+.contenedorpadre-encriptador-inactivo {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	width: 400px;
+	height: 944px;
+	border-radius: 32px;
+	background: var(--white);
+}
+
+.contenedorpadre-encriptador-inactivo img {
+	position: absolute;
+	top: 243px;
+	left: 32px;
+	width: 336;
+	height: 304;
+}
+
+.encriptador-textvacio {
+	position: absolute;
+	top: 570px;
+	left: 32px;
+	width: 336;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.encriptador-textvacio p:first-child {
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--gray-500);
+	margin-bottom: 16px;
+	line-height: 120%;
+}
+
+.encriptador-textvacio p:nth-child(2) {
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--gray-400);
+	line-height: 150%;
+}
+
+/* CONTENEDOR ENCRYPTADOR ACTIVO */
+.contenedorpadre-encriptador-inactivo {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	width: 400px;
+	height: 944px;
+	border-radius: 32px;
+	background: var(--white);
+}
+
+.contenedorpadre-encriptador-inactivo img {
+	position: absolute;
+	top: 243px;
+	left: 32px;
+	width: 336;
+	height: 304;
+}
+
+.encriptador-textvacio {
+	position: absolute;
+	top: 570px;
+	left: 32px;
+	width: 336;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.encriptador-textvacio p:first-child {
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--gray-500);
+	margin-bottom: 16px;
+	line-height: 120%;
+}
+
+.encriptador-textvacio p:nth-child(2) {
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--gray-400);
+	line-height: 150%;
+}
