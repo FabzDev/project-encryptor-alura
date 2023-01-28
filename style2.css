@@ -25,38 +25,54 @@
 }
 
 body {
+	width: 100%;
+	height: 90vh;
 	background-color: var(--light-blue-100);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .homepage {
 	background-color: var(--light-blue-100);
-	width: 1440px;
-	height: 100vh;
+	min-width: 1024px;
+	height: 780px;
 	font-family: "Montserrat", sans-serif;
 	position: relative;
 	margin: 0 auto;
 }
 
+.marca {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	width: 88px;
+	height: 45px;
+}
 .boton-back {
 	position: absolute;
-	top: 50px;
-	left: 40px;
+	top: 9.5px;
+	left: 0px;
+	width: 25px;
+	height: 26px;
 	cursor: pointer;
 }
 
 .logo {
 	position: absolute;
-	top: 40px;
-	left: 40px;
+	right: 0px;
+	width: 30px;
+	height: 45px;
 }
 
 .contenedor-normal-text {
 	position: absolute;
-	top: 168px;
-	left: 240px;
+	top: 118px;
+	left: 78px;
 }
 
 #normal-text {
-	width: 680px;
+	width: 510px;
+	height: 380px;
 	color: var(--dark-blue-500);
 	outline: none;
 	border: none;
@@ -75,8 +91,8 @@ body {
 
 .instrucciones {
 	position: absolute;
-	bottom: 155px;
-	left: 240px;
+	bottom: 110px;
+	left: 64px;
 }
 
 .instrucciones img {
@@ -92,13 +108,13 @@ body {
 
 .contenedor-botones {
 	position: absolute;
-	bottom: 72px;
-	left: 240px;
+	bottom: 40px;
+	left: 40px;
 	margin: 0 auto;
 }
 
 .botones {
-	width: 328px;
+	width: 270px;
 	padding: 24px;
 	border-radius: 24px;
 	font-family: "Montserrat", sans-serif;
@@ -124,27 +140,27 @@ body {
 /* CONTENEDOR ENCRYPTADOR INACTIVO */
 .contenedorpadre-encriptador-inactivo {
 	position: absolute;
-	top: 40px;
-	right: 40px;
-	width: 400px;
-	height: 92%;
+	top: 5px;
+	right: 8px;
+	width: 336px;
+	height: 770px;
 	border-radius: 32px;
 	background: var(--white);
 }
 
 .contenedorpadre-encriptador-inactivo img {
 	position: absolute;
-	top: 243px;
-	left: 32px;
-	width: 336;
-	height: 304;
+	top: 196px;
+	left: 27px;
+	width: 284px;
+	height: 248px;
 }
 
 .encriptador-textvacio {
 	position: absolute;
-	top: 570px;
-	left: 32px;
-	width: 336;
+	top: 474px;
+	left: 27px;
+	width: 282px;
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
 }
@@ -168,20 +184,20 @@ body {
 .contenedorpadre-encriptador-activo {
 	display: none;
 	position: absolute;
-	top: 40px;
-	right: 40px;
-	width: 400px;
-	height: 92%;
+	top: 5px;
+	right: 8px;
+	width: 336px;
+	height: 770px;
 	border-radius: 32px;
 	background: var(--white);
 }
 
 .contenedor-encrypted-text {
 	position: absolute;
-	top: 32px;
-	left: 32px;
-	width: 336px;
-	height: 781px;
+	top: 30px;
+	left: 20px;
+	width: 296px;
+	height: 620px;
 }
 
 #encrypted-text {
@@ -200,8 +216,8 @@ body {
 
 #copiar {
 	position: absolute;
-	bottom: 32px;
-	left: 32px;
+	bottom: 37px;
+	left: 33px;
 	background: var(--white);
 	color: var(--dark-blue-500);
 	border: 1px solid var(--dark-blue-500);
