@@ -24,12 +24,16 @@
 	--gray-500: #343a40;
 }
 
+body {
+	background-color: var(--light-blue-100);
+}
 .homepage {
 	background-color: var(--light-blue-100);
 	width: 1440px;
-	height: 1024px;
+	height: 100vh;
 	font-family: "Montserrat", sans-serif;
 	position: relative;
+	margin: 0 auto;
 }
 
 .boton-back {
@@ -70,7 +74,7 @@
 
 .instrucciones {
 	position: absolute;
-	top: 851px;
+	bottom: 155px;
 	left: 240px;
 }
 
@@ -87,7 +91,7 @@
 
 .contenedor-botones {
 	position: absolute;
-	top: 885px;
+	bottom: 72px;
 	left: 240px;
 	margin: 0 auto;
 }
@@ -120,7 +124,7 @@
 	top: 40px;
 	right: 40px;
 	width: 400px;
-	height: 944px;
+	height: 92%;
 	border-radius: 32px;
 	background: var(--white);
 }
@@ -164,7 +168,7 @@
 	top: 40px;
 	right: 40px;
 	width: 400px;
-	height: 944px;
+	height: 92%;
 	border-radius: 32px;
 	background: var(--white);
 }
