@@ -50,8 +50,8 @@ body {
 }
 .boton-back {
 	position: absolute;
-	top: 9.5px;
-	left: 0px;
+	top: 12.5px;
+	left: 10px;
 	width: 25px;
 	height: 26px;
 	cursor: pointer;
