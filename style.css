@@ -268,7 +268,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
 	.main {
 		min-width: 270px;
 		min-height: 600px;
