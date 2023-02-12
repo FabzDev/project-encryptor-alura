@@ -146,7 +146,6 @@ body {
 
 .right {
 	width: 30%;
-	height: 100%;
 	background-color: var(--white);
 	border-radius: 2rem;
 }
@@ -208,12 +207,6 @@ body {
 	color: black;
 }
 
-.copy__container {
-	height: 10%;
-	width: 100%;
-	text-align: center;
-}
-
 .copy {
 	width: 95%;
 	height: 61px;
@@ -224,4 +217,52 @@ body {
 
 .hide {
 	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.main-container {
+		flex-direction: column;
+		justify-content: start;
+		min-height: auto;
+	}
+
+	.main {
+		width: 100%;
+		min-height: 500px;
+		margin-bottom: 30px;
+	}
+
+	.right {
+		width: 100%;
+		height: 2;
+	}
+
+	.search__figure {
+		display: none;
+	}
+
+	.toencrypt__text {
+		width: 90%;
+		font-size: 1.5rem;
+	}
+	.result {
+		padding: 30px;
+		height: auto;
+	}
+
+	.result__container {
+		margin-bottom: 30px;
+	}
+
+	.result__text {
+		font-size: 1.3rem;
+	}
+
+	.footer {
+		padding: 0 10px;
+	}
+
+	.search {
+		padding: 30px 10px;
+	}
 }
