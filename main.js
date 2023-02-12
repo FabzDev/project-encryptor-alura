@@ -23,7 +23,6 @@ botonEncriptar.addEventListener("click", () => {
 			.replaceAll("a", "asdf3")
 			.replaceAll("o", "lk23j")
 			.replaceAll("u", "s2e1");
-		console.log(modifiedText);
 		encryptedTextDOM.innerHTML = modifiedText;
 	} else {
 		contenedorInactivo.style.display = "flex";
@@ -62,4 +61,8 @@ botonCopiar.addEventListener("click", async () => {
 	} catch (err) {
 		console.error("Failed to copy text: ", err);
 	}
+});
+
+window.addEventListener("beforeunload", () => {
+	normalTextDOM.value = "";
 });
